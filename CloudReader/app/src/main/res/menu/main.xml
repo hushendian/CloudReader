@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- orderInCategory优先级越大，数值越小，当actionbar位置放不下时，会放到overflow中 -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/actionbar_search"
+        android:orderInCategory="100"
+        android:title="搜索"
+        app:showAsAction="always" />
+</menu>

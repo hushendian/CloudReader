@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:icon="@drawable/home_title_all"
+        android:title="全部"></item>
+    <item
+        android:id="@+id/ios"
+        android:icon="@drawable/home_title_ios"
+        android:title="IOS"></item>
+    <item
+        android:id="@+id/app"
+        android:icon="@drawable/home_title_app"
+        android:title="APP"></item>
+    <item
+        android:id="@+id/qian"
+        android:icon="@drawable/home_title_qian"
+        android:title="前端"></item>
+    <item
+        android:id="@+id/movie"
+        android:icon="@drawable/home_title_movie"
+        android:title="休息视频"></item>
+    <item
+        android:id="@+id/resouce"
+        android:icon="@drawable/home_title_source"
+        android:title="拓展资源"></item>
+    <group android:id="@+id/help">
+        <item
+            android:id="@+id/help1"
+            android:icon="@drawable/home_title_source"
+            android:title="帮助" />
+    </group>
+
+</menu>
